@@ -6,7 +6,7 @@ import React from "react";
 export default function Page() {
   return (
     <div>
-      <Link href={"/login"}>Chat</Link>
+      <Link href={"/userinfo"}>Start</Link>
     </div>
   );
 }

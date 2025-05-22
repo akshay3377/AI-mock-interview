@@ -2,7 +2,7 @@
 import { Inter } from "next/font/google";
 import "../../styles/chat.globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import Notification from "@/components/notification";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
           {children}
           {/* <Toaster /> */}
 
-          <Notification />
+  
         </ThemeProvider>
       </body>
     </html>
